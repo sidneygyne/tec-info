@@ -1,0 +1,42 @@
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.row {
+    
+}
+
+.d-grid {
+    padding-top: 20PX;
+    padding-bottom: 20px;
+    width: 100%;
+    grid-template-columns: 32.6% 32.6% 32.6%;
+    
+}
+
+.container {
+    
+}
+
+.bg-card {
+   
+    background: linear-gradient(90deg, #1a73e8, #010101);
+    color: white;
+    border-radius: 20px;
+}
+
+
+/* Tablets e dispositivos menores */
+@media (max-width: 991.98px) {
+
+    .d-grid {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+/* Celulares */
+@media (max-width: 767.98px) {
+    .d-grid {
+        grid-template-columns: 100%;
+    }
+}

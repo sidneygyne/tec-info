@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tec Info</title>
+
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/carousel.css">
+    <link rel="stylesheet" href="./css/cards.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/contact.css" <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+
+<body>
+
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg navbar-dark navbar-custom">
+            <div class="container">
+                <h1 class="site-title text-white">
+                    <a href="#" class="text-decoration-none text-white">TEC INFO</a>
+                </h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu"
+                    aria-controls="menu" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills ms-auto">
+                        <li class="nav-item">
+                            <a href="#carousel-exemplo" class="nav-link active">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#noticias" class="nav-link">Notícias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contato" class="nav-link">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- div responsavel por deixar o item do menu ativo -->
+        <div data-bs-spy="scroll" data-bs-target="cabecalho">
+
+            <!-- carousel -->
+            <div id="carousel-exemplo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner" id="inicio">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="d-block w-100"
+                            src="https://media.istockphoto.com/id/1332176260/pt/foto/man-working-at-a-creative-office-using-his-computer-and-people-moving-at-the-background.jpg?s=1024x1024&w=is&k=20&c=djS3wRRiqsj6dS5bYP86R7b6aiHsoUBXWbBfzlvytyw="
+                            alt="" srcset="">
+                        <div class="carousel-caption">
+                            <h2>Informação</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100"
+                            src="https://media.istockphoto.com/id/1291478674/pt/foto/document-management-system-being-setup-by-it-consultant-working-on-laptop-computer-in-office.jpg?s=612x612&w=0&k=20&c=qEnjeENB9bVk7eLoQm-GwAVhBvGQ7SEgOnfq0lQAJE4="
+                            alt="" srcset="">
+                        <div class="carousel-caption">
+                            <h2>Dados</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100"
+                            src="https://media.istockphoto.com/id/1295900106/pt/foto/data-scientists-male-programmer-using-laptop-analyzing-and-developing-in-various-information.jpg?s=612x612&w=0&k=20&c=joiscY6WJHNcxAReKtk7ZMDUzmoUad5kA1YLSMOec9M="
+                            alt="" srcset="">
+                        <div class="carousel-caption">
+                            <h2>Internet</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100"
+                            src="https://media.istockphoto.com/id/1322517295/pt/foto/cyber-security-it-engineer-working-on-protecting-network-against-cyberattack-from-hackers-on.jpg?s=612x612&w=0&k=20&c=kYvwt7Ees6nTtohX6HyT1Qpe7R6IoTCR3RlRJv3U5Qo="
+                            alt="" srcset="">
+                        <div class="carousel-caption">
+                            <h2>Segurança</h2>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-exemplo"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-exemplo"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0"
+                        class="active"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+
+            <!-- CARDS -->
+            <div class="container" id="noticias">
+
+                <h1>Notícias</h1>
+
+                <div class="d-grid gap-2">
+
+                    <div class="p-3 bg-card">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h4 class="card-title">One UI 7 Beta Lançada</h4>
+                            </div>
+                            <img src="./images/one-ui-7-beta-lançado.jpeg" alt="One UI 7 Beta Lançada">
+                            <div class="card-body">
+
+                                <h5 class="card-subtitle">Visual renovado e IA aprimorada </h5>
+                                <p class="card-text">
+                                    A One UI 7 Beta foi lançada para testadores em mercados selecionados, trazendo um
+                                    visual renovado e melhorias na IA.
+                                </p>
+                                <a href="#" class="btn btn-primary">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-3 bg-card">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h4 class="card-title">Bitcoin Atinge Novo Recorde</h4>
+                            </div>
+                            <img src="./images/bitcoin-atinge-novo-recorde.jpeg" alt="Bitcoin Atinge Novo Recorde">
+                            <div class="card-body">
+                                <h5 class="card-subtitle">Valor ultrapassa US$ 100 mil pela primeira vez</h5>
+                                <p class="card-text">
+                                    O Bitcoin atingiu um valor recorde de US$ 100 mil pela primeira vez na história,
+                                    impulsionado por eventos econômicos globais.
+                                </p>
+                                <a href="#" class="btn btn-primary">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-3 bg-card">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h4 class="card-title">Samsung Galaxy A56 Revelado</h4>
+                            </div>
+                            <img src="./images/samsung-galaxy-A56-revelado.jpeg" alt="Samsung Galaxy A56 Revelado">
+                            <div class="card-body">
+                                <h5 class="card-subtitle">Novo design intermediário</h5>
+                                <p class="card-text">
+                                    O Samsung revelou o design do Galaxy A56, um dispositivo elegante com bordas planas
+                                    e características dos modelos mais avançados.
+                                </p>
+                                <a href="#" class="btn btn-primary">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-3 bg-card">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h4 class="card-title">Inteligência Artificial Regulamentada</h4>
+                            </div>
+                            <img src="./images/ia-regulamentada.jpeg" alt="Inteligência Artificial Regulamentada">
+                            <div class="card-body">
+                                <h5 class="card-subtitle">Novas regras para IA no Brasil</h5>
+                                <p class="card-text">
+                                    O Senado aprovou novas regras para a inteligência artificial, que incluem normas
+                                    para segurança e responsabilidade das empresas.
+                                </p>
+                                <a href="#" class="btn btn-primary">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-3 bg-card">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h4 class="card-title">Eclipse Solar Artificial</h4>
+                            </div>
+                            <img src="./images/eclipse-solar-artificial.jpeg" alt="Eclipse Solar Artificial">
+                            <div class="card-body">
+                                <h5 class="card-subtitle">Missão ESA cria fenômeno espacial</h5>
+                                <p class="card-text">
+                                    A missão Proba-3 da ESA criou um eclipse solar artificial a mais de 60 mil
+                                    quilômetros da Terra para estudar a coroa solar.
+                                </p>
+                                <a href="#" class="btn btn-primary">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-3 bg-card">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h4 class="card-title">WhatsApp Ativa Transcrição de Áudio</h4>
+                            </div>
+                            <img src="./images/whatsApp-ativa-transcricao-de-audio.jpeg"
+                                alt="WhatsApp Ativa Transcrição de Áudio">
+                            <div class="card-body">
+                                <h5 class="card-subtitle">Novo recurso para usuários</h5>
+                                <p class="card-text">
+                                    O WhatsApp lançou o recurso de transcrição de áudio, que transforma gravações de voz
+                                    em texto, disponível para todos os usuários.
+                                </p>
+                                <a href="#" class="btn btn-primary">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- CONTATO -->
+            <div class="container">
+                <div class="row" id="contato">
+                    <div class="col">
+                        <h1>Contato</h1>
+                        <form>
+                            <label class="form-label" for="nome">Nome</label>
+                            <input class="form-control" type="text" id="nome" minlength="3" maxlength="50"
+                                placeholder="Nome" required>
+
+                            <label class="form-label" for="email">e-mail</label>
+                            <input class="form-control" type="email" id="email" placeholder="exemplo@dominio.com"
+                                required>
+
+                            <label class="form-label" for="tel">Telefone</label>
+                            <input class="form-control" type="tel" id="tel" minlength="10" maxlength="11"
+                                placeholder="DD000000000" required>
+
+                            <label class="form-label" for="mensagem">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="4" maxlength="500"
+                                placeholder="Digite sua mensagem aqui" required></textarea>
+
+                            <button class="btn btn-primary shadow-5" type="submit">Enviar</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+    
+                <p >
+                    2024 &copy, TEC INF - Todos os direitos reservados. Desenvolvido por Sidney Rodrigues Magalhaes
+                </p>
+           
+            <ul class="d-flex justify-content-center" >
+                <li>
+                    <a href="#">
+                        <img src="./icons/facebook.png" alt="facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./icons/instagram.png" alt="instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./icons/youtube.png" alt="youtube">
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </footer>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
