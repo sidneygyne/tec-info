@@ -2,19 +2,11 @@
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.row {
-    
-}
-
 .d-grid {
     padding-top: 20PX;
     padding-bottom: 20px;
     width: 100%;
     grid-template-columns: 32.6% 32.6% 32.6%;
-    
-}
-
-.container {
     
 }
 
@@ -25,6 +17,21 @@
     border-radius: 20px;
 }
 
+
+.fade-in-image {
+    opacity: 0; /* Imagem começa invisível */
+    transition: opacity 3s ease-in-out; /* Efeito de transição suave */
+    visibility: hidden; /* Esconde a imagem antes de rolar */
+}
+
+.visible {
+    opacity: 1; /* Torna a imagem visível */
+    visibility: visible; /* A imagem se torna visível quando estiver no alcance */
+}
+
+.opacity-effect {
+    transition: opacity 1s ease;
+}
 
 /* Tablets e dispositivos menores */
 @media (max-width: 991.98px) {
